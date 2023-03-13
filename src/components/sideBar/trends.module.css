@@ -1,0 +1,41 @@
+.title {
+  font-size: 30px;
+}
+
+.artist_img {
+  width: 80%;
+  padding: 10px;
+}
+
+.artistss {
+  width: 30%;
+  cursor: pointer;
+}
+
+.section {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 30%;
+}
+
+.artistss:hover {
+  background: rgb(60, 56, 56);
+  background: linear-gradient(
+    90deg,
+    rgba(60, 56, 56, 1) 15%,
+    rgba(166, 160, 161, 1) 100%
+  );
+}
+
+.artistss:hover .play_playlist {
+  display: block;
+  color: white;
+}
+
+.play_playlist {
+  position: relative;
+  display: none;
+  color: blue;
+  cursor: pointer;
+}

@@ -1,0 +1,94 @@
+.searchBox {
+  border-radius: 15px;
+  border: none;
+  height: 35px;
+  border: 1px solid black;
+  margin-left: 5rem;
+}
+
+.search {
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(224, 224, 224);
+}
+
+.arrrow_btn {
+  border: none;
+  background: none;
+  background-color: red;
+}
+.left_btn {
+  color: rgb(0, 0, 0);
+  font-size: 25px;
+  margin-left: 5rem;
+  margin-top: 15px;
+  cursor: pointer;
+}
+
+.right_btn {
+  color: rgb(2, 2, 2);
+  font-size: 25px;
+  margin-left: 10px;
+  cursor: pointer;
+  margin-top: 15px;
+}
+
+.search_btn {
+  color: rgb(26, 23, 23);
+  font-size: 25px;
+
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding-top: 10px;
+}
+
+/* SEARCH RESULT RENDRING */
+
+.result_container {
+  margin: 4px;
+  border: 1px solid gray;
+  background-color: white;
+  width: 30%;
+  margin-left: 1rem;
+  cursor: pointer;
+}
+
+.artist_image {
+  width: 80%;
+  padding: 20px;
+}
+
+section {
+  background-color: rgb(224, 224, 224);
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+section div {
+}
+section div h2 {
+  padding: 0.7rem;
+  margin: 0;
+}
+
+.result_container:hover {
+  background: rgb(60, 56, 56);
+  background: linear-gradient(
+    90deg,
+    rgba(60, 56, 56, 1) 15%,
+    rgba(166, 160, 161, 1) 100%
+  );
+}
+
+.play_playlist {
+  position: relative;
+  display: none;
+  color: blue;
+  cursor: pointer;
+}
+.result_container:hover .play_playlist {
+  display: block;
+  color: white;
+}

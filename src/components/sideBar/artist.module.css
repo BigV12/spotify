@@ -1,0 +1,22 @@
+.artist_img {
+  padding: 20px;
+}
+
+.title {
+  font-size: 30px;
+  padding: 10px;
+}
+
+.artistss {
+  width: 30%;
+  cursor: pointer;
+}
+
+.artistss:hover {
+  background: rgb(60, 56, 56);
+  background: linear-gradient(
+    90deg,
+    rgba(60, 56, 56, 1) 15%,
+    rgba(166, 160, 161, 1) 100%
+  );
+}

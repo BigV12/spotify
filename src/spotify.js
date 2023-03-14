@@ -4,7 +4,7 @@ const authEndpoint = "https://accounts.spotify.com/authorize?";
 
 const clientId = "c84200fd412149268f5ac1eb25def881";
 
-const redirectUri = "https://veemusic.netlify.app/";
+const redirectUri = "http://localhost:3000/";
 
 const scopes = [
   "playlist-read-private,user-follow-modify,user-follow-read,user-follow-read,user-library-read",
